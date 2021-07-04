@@ -12,7 +12,7 @@ import Footer from './component/Footer';
 import Openzone from './component/Openzone';
 import Admin from './component/ADMIN/Admin';
 import User from './component/User/User';
-
+import Home from './component/Home';
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
       <Route exact path="/Openzone" component={Openzone}></Route>
       <Route exact path="/Admin" component={Admin}></Route>
       <Route exact path="/User" component={User}></Route>
+      <Route exact path="/" component={Home} ></Route>
       
       </Switch>
     </div>

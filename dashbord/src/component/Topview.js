@@ -9,12 +9,13 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Nav,Navbar,Form,FormControl,Button} from 'react-bootstrap';
 import './common.css'
+import Body from "./Body";
 
  function Topview() {
   return (
     <div>
       <Navbar bg="primary" variant="dark">
-        <Navbar.Brand >GreenBord</Navbar.Brand>
+      <Link to="/"> <Navbar.Brand > GreenBord</Navbar.Brand></Link>
         <Nav className="mr-auto">
           
         </Nav>
@@ -23,6 +24,8 @@ import './common.css'
           <Button variant="outline-light">OPEN</Button></Link>
         </Form>
       </Navbar>
+      
+
     </div>
   );
 }
